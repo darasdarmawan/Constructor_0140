@@ -8,4 +8,15 @@ public:
 	static int nim;
 	int id;
 	string nama;
+
+	void setID();
+	void printA11();
+	mahasiswa(string pnama)
+	{
+		nama = pnama;
+		setID();
+
+	}
 };
+
+int mahasiswa::nim = 10;
