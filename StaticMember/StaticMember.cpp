@@ -10,7 +10,7 @@ public:
 	string nama;
 
 	void setID();
-	void printA11();
+	void printAll();
 	mahasiswa(string pnama)
 	{
 		nama = pnama;
@@ -20,3 +20,10 @@ public:
 };
 
 int mahasiswa::nim = 10;
+
+void mahasiswa::setID()
+{
+	id = ++nim;
+}
+
+
